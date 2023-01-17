@@ -1,6 +1,6 @@
-var a;
-var b;
-var operando;
+let a;
+let b;
+let operando;
 
 function init(){
     let resultado = document.getElementById("resultado");
@@ -96,7 +96,7 @@ function reinicio(){
 
 
 function solucion(){
-    var salida=0
+    var salida;
     switch(operando){
         case "+":
         salida = (parseFloat(a)) + (parseFloat(b));
